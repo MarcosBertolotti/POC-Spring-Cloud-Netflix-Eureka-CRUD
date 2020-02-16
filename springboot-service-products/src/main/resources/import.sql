@@ -1,0 +1,2 @@
+insert into products (name, price, create_at) values ('Panasonic', 800, now()), ('Sony', 700, now()), ('Apple', 1000, now()), ('Sony Notebook', 1000, now()), ('Hewlett Packard', 500, now()), ('Bianchi', 600, now()), ('Nike', 100, now()), ('Adidas', 200, now()), ('Reebok', 300, now());
+insert into products (name, price, create_at) values ('Panasonic', 800, now());
