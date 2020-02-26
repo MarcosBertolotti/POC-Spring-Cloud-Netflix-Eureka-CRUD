@@ -58,7 +58,6 @@ public class AuthenticationSuccessErrorHandler implements AuthenticationEventPub
             User user = userService.findByUsername(authentication.getName());
 
             if(user.getAttempts() == null){
-                System.out.println("ASDASDASDASDASDASD");
                 user.setAttempts(0);
             }
 
